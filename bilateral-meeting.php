@@ -1,53 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bilateral Meeting | 4th ASEAN–China Justice Forum</title>
-    <meta name="description"
-        content="Programme of bilateral meetings on Saturday, 10 October 2026, alongside the 4th ASEAN–China Justice Forum at Furama Resort Danang.">
-    <link rel="icon" href="assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=20260919b">
-</head>
-
-<body>
-    <a class="skip-link" href="#content">Skip to content</a>
-    <header class="site-header">
-        <div class="wrap topbar">
-            <div class="host">Hosted by the Supreme People's Court of the Socialist Republic of Viet Nam</div>
-            <div class="when"><span>Da Nang</span> · 9–12 October 2026</div>
-        </div>
-        <a class="banner" href="index.html">
-            <img src="assets/images/banner.jpg"
-                alt="The 4th ASEAN–China Justice Forum — Da Nang, Viet Nam, 9–12 October 2026">
-        </a>
-    </header>
-    <div class="nav-wrap">
-        <div class="wrap nav-inner">
-            <a class="brand" href="index.html">Justice Forum 2026</a>
-            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-            <nav id="site-nav" class="nav" aria-label="Main">
-                <div class="drop">
-                    <a href="index.html">Home</a>
-                    <div class="drop-menu">
-                        <a href="index.html#introduction">Introduction</a>
-                        <a href="index.html#venue">Venue</a>
-                    </div>
-                </div>
-                <a href="programme.html">Tentative Programme</a>
-                <a class="is-active" href="bilateral-meeting.html">Bilateral Meeting</a>
-                <a href="layout.html">Meeting Room Layout</a>
-                <a href="sightseeing.html">Da Nang Sightseeing Tour</a>
-            </nav>
-        </div>
-    </div>
+<?php
+$pageTitle = 'Bilateral Meeting | 4th ASEAN–China Justice Forum';
+$pageDescription = 'Programme of bilateral meetings on Saturday, 10 October 2026, alongside the 4th ASEAN–China Justice Forum at Furama Resort Danang.';
+$activePage = 'bilateral';
+$bannerImage = 'assets/images/banner.jpg';
+$styleVersion = '20260919b';
+require __DIR__ . '/includes/header.php';
+?>
 
     <section class="page-hero">
         <div class="wrap">
@@ -208,22 +166,4 @@
         </div>
     </main>
 
-    <footer class="site-footer">
-        <div class="wrap">
-            <div>
-                <h4>4th ASEAN–China Justice Forum</h4>
-                <p>Diễn đàn Tư pháp ASEAN – Trung Quốc lần thứ tư</p>
-                <p>Hosted by the Supreme People's Court of the Socialist Republic of Viet Nam</p>
-            </div>
-            <div>
-                <p>Furama Resort Danang</p>
-                <p>105 Vo Nguyen Giap Street, Ngu Hanh Son District, Da Nang City, Viet Nam</p>
-                <p>9–12 October 2026</p>
-            </div>
-        </div>
-        <div class="wrap copyright">© 2026 4th ASEAN–China Justice Forum. All rights reserved.</div>
-    </footer>
-    <script src="assets/js/main.js?v=20260916"></script>
-</body>
-
-</html>
+<?php require __DIR__ . '/includes/footer.php'; ?>

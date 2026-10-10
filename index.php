@@ -1,57 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4th ASEAN–China Justice Forum | Da Nang, 9–12 October 2026</title>
-    <meta name="description"
-        content="The 4th ASEAN–China Justice Forum, hosted by the Supreme People's Court of Viet Nam at Furama Resort Danang, 9–12 October 2026.">
-    <link rel="icon" href="assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css?v=20260917">
-    <meta property="og:title" content="4th ASEAN–China Justice Forum">
-    <meta property="og:description"
-        content="Strengthening Regional Judicial Cooperation in the Context of International Integration and the Digital Era. Da Nang, Viet Nam | 9–12 October 2026.">
-    <meta property="og:image" content="assets/images/banner.jpg">
-</head>
-
-<body>
-    <a class="skip-link" href="#content">Skip to content</a>
-    <header class="site-header">
-        <div class="wrap topbar">
-            <div class="host">Hosted by the Supreme People's Court of the Socialist Republic of Viet Nam</div>
-            <div class="when"><span>Da Nang</span> · 9–12 October 2026</div>
-        </div>
-        <a class="banner" href="index.html">
-            <img src="assets/images/banner2.jpg"
-                alt="The 4th ASEAN–China Justice Forum — Da Nang, Viet Nam, 9–12 October 2026">
-        </a>
-    </header>
-    <div class="nav-wrap">
-        <div class="wrap nav-inner">
-            <a class="brand" href="index.html">Justice Forum 2026</a>
-            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-            <nav id="site-nav" class="nav" aria-label="Main">
-                <div class="drop">
-                    <a class="is-active" href="index.html">Home</a>
-                    <div class="drop-menu">
-                        <a href="#introduction">Introduction</a>
-                        <a href="#venue">Venue</a>
-                    </div>
-                </div>
-                <a href="programme.html">Tentative Programme</a>
-                <a href="bilateral-meeting.html">Bilateral Meeting</a>
-                <a href="layout.html">Meeting Room Layout</a>
-                <a href="sightseeing.html">Da Nang Sightseeing Tour</a>
-            </nav>
-        </div>
-    </div>
+<?php
+$pageTitle = '4th ASEAN–China Justice Forum | Da Nang, 9–12 October 2026';
+$pageDescription = "The 4th ASEAN–China Justice Forum, hosted by the Supreme People's Court of Viet Nam at Furama Resort Danang, 9–12 October 2026.";
+$activePage = 'home';
+$bannerImage = 'assets/images/banner2.jpg';
+$styleVersion = '20260917';
+$ogTitle = '4th ASEAN–China Justice Forum';
+$ogDescription = 'Strengthening Regional Judicial Cooperation in the Context of International Integration and the Digital Era. Da Nang, Viet Nam | 9–12 October 2026.';
+$ogImage = 'assets/images/banner.jpg';
+require __DIR__ . '/includes/header.php';
+?>
 
     <main id="content">
         <section class="section" id="introduction">
@@ -152,22 +109,4 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="wrap">
-            <div>
-                <h4>4th ASEAN–China Justice Forum</h4>
-                <p>Diễn đàn Tư pháp ASEAN – Trung Quốc lần thứ tư</p>
-                <p>Hosted by the Supreme People's Court of the Socialist Republic of Viet Nam</p>
-            </div>
-            <div>
-                <p>Furama Resort Danang</p>
-                <p>105 Vo Nguyen Giap Street, Ngu Hanh Son District, Da Nang City, Viet Nam</p>
-                <p>9–12 October 2026</p>
-            </div>
-        </div>
-        <div class="wrap copyright">© 2026 4th ASEAN–China Justice Forum. All rights reserved.</div>
-    </footer>
-    <script src="assets/js/main.js?v=20260916"></script>
-</body>
-
-</html>
+<?php require __DIR__ . '/includes/footer.php'; ?>
