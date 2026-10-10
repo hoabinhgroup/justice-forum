@@ -320,7 +320,7 @@ require __DIR__ . '/includes/header.php';
                         <tr>
                             <td>08:00 – 15:30</td>
                             <td>Sightseeing tour of Ba Na Hills for international delegates<br>
-                                <a href="sightseeing.php">Detailed Sightseeing Itinerary for Delegates</a>
+                                <a href="sightseeing.html">Detailed Sightseeing Itinerary for Delegates</a>
                             </td>
                             <td>15:30: Delegations return to the hotel to rest and prepare for dinner.</td>
                         </tr>

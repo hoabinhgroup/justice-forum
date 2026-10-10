@@ -45,27 +45,27 @@ function nav_class(string $page, string $activePage): string
             <div class="host">Hosted by the Supreme People's Court of the Socialist Republic of Viet Nam</div>
             <div class="when"><span>Da Nang</span> · 9–12 October 2026</div>
         </div>
-        <a class="banner" href="index.php">
+        <a class="banner" href="./">
             <img src="<?= htmlspecialchars($bannerImage, ENT_QUOTES, 'UTF-8') ?>"
                 alt="The 4th ASEAN–China Justice Forum — Da Nang, Viet Nam, 9–12 October 2026">
         </a>
     </header>
     <div class="nav-wrap">
         <div class="wrap nav-inner">
-            <a class="brand" href="index.php">Justice Forum 2026</a>
+            <a class="brand" href="./">Justice Forum 2026</a>
             <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
             <nav id="site-nav" class="nav" aria-label="Main">
                 <div class="drop">
-                    <a<?= nav_class('home', $activePage) ?> href="index.php">Home</a>
+                    <a<?= nav_class('home', $activePage) ?> href="./">Home</a>
                     <div class="drop-menu">
-                        <a href="index.php#introduction">Introduction</a>
-                        <a href="index.php#venue">Venue</a>
+                        <a href="./#introduction">Introduction</a>
+                        <a href="./#venue">Venue</a>
                     </div>
                 </div>
-                <a<?= nav_class('programme', $activePage) ?> href="programme.php">Tentative Programme</a>
-                <a<?= nav_class('bilateral', $activePage) ?> href="bilateral-meeting.php">Bilateral Meeting</a>
-                <a<?= nav_class('layout', $activePage) ?> href="layout.php">Meeting Room Layout</a>
-                <a<?= nav_class('sightseeing', $activePage) ?> href="sightseeing.php">Da Nang Sightseeing Tour</a>
+                <a<?= nav_class('programme', $activePage) ?> href="programme.html">Tentative Programme</a>
+                <a<?= nav_class('bilateral', $activePage) ?> href="bilateral-meeting.html">Bilateral Meeting</a>
+                <a<?= nav_class('layout', $activePage) ?> href="layout.html">Meeting Room Layout</a>
+                <a<?= nav_class('sightseeing', $activePage) ?> href="sightseeing.html">Da Nang Sightseeing Tour</a>
                 <a href="https://drive.google.com/drive/folders/1L1gjEtTyr0Xzblm1jfE_zZKrJ3kMIXxA"
                     target="_blank" rel="noopener noreferrer">Photo Gallery</a>
             </nav>
