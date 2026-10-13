@@ -69,7 +69,7 @@ function nav_class(string $page, string $activePage): string
                         <a<?= nav_class('layout', $activePage) ?> href="layout.html">Meeting Room Layout</a>
                             <a<?= nav_class('sightseeing', $activePage) ?> href="sightseeing.html">Da Nang Sightseeing
                                 Tour</a>
-                                <a href="https://drive.google.com/drive/u/0/folders/1rjvwQK_LXmdW-bTVZUiMKUlXxxZpsXix"
+                                <a href="https://drive.google.com/drive/mobile/folders/1rjvwQK_LXmdW-bTVZUiMKUlXxxZpsXix"
                                     target="_blank" rel="noopener noreferrer">Photo Gallery</a>
             </nav>
         </div>
