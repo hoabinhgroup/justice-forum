@@ -25,17 +25,19 @@ function nav_class(string $page, string $activePage): string
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css?v=<?= rawurlencode($styleVersion) ?>">
-<?php if ($ogTitle !== null): ?>
-    <meta property="og:title" content="<?= htmlspecialchars($ogTitle, ENT_QUOTES, 'UTF-8') ?>">
-<?php endif; ?>
-<?php if ($ogDescription !== null): ?>
-    <meta property="og:description" content="<?= htmlspecialchars($ogDescription, ENT_QUOTES, 'UTF-8') ?>">
-<?php endif; ?>
-<?php if ($ogImage !== null): ?>
-    <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
-<?php endif; ?>
+    <?php if ($ogTitle !== null): ?>
+        <meta property="og:title" content="<?= htmlspecialchars($ogTitle, ENT_QUOTES, 'UTF-8') ?>">
+    <?php endif; ?>
+    <?php if ($ogDescription !== null): ?>
+        <meta property="og:description" content="<?= htmlspecialchars($ogDescription, ENT_QUOTES, 'UTF-8') ?>">
+    <?php endif; ?>
+    <?php if ($ogImage !== null): ?>
+        <meta property="og:image" content="<?= htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8') ?>">
+    <?php endif; ?>
 </head>
 
 <body>
@@ -57,17 +59,18 @@ function nav_class(string $page, string $activePage): string
             <nav id="site-nav" class="nav" aria-label="Main">
                 <div class="drop">
                     <a<?= nav_class('home', $activePage) ?> href="./">Home</a>
-                    <div class="drop-menu">
-                        <a href="./#introduction">Introduction</a>
-                        <a href="./#venue">Venue</a>
-                    </div>
+                        <div class="drop-menu">
+                            <a href="./#introduction">Introduction</a>
+                            <a href="./#venue">Venue</a>
+                        </div>
                 </div>
                 <a<?= nav_class('programme', $activePage) ?> href="programme.html">Tentative Programme</a>
-                <a<?= nav_class('bilateral', $activePage) ?> href="bilateral-meeting.html">Bilateral Meeting</a>
-                <a<?= nav_class('layout', $activePage) ?> href="layout.html">Meeting Room Layout</a>
-                <a<?= nav_class('sightseeing', $activePage) ?> href="sightseeing.html">Da Nang Sightseeing Tour</a>
-                <a href="https://drive.google.com/drive/folders/1L1gjEtTyr0Xzblm1jfE_zZKrJ3kMIXxA"
-                    target="_blank" rel="noopener noreferrer">Photo Gallery</a>
+                    <a<?= nav_class('bilateral', $activePage) ?> href="bilateral-meeting.html">Bilateral Meeting</a>
+                        <a<?= nav_class('layout', $activePage) ?> href="layout.html">Meeting Room Layout</a>
+                            <a<?= nav_class('sightseeing', $activePage) ?> href="sightseeing.html">Da Nang Sightseeing
+                                Tour</a>
+                                <a href="https://drive.google.com/drive/u/0/folders/1rjvwQK_LXmdW-bTVZUiMKUlXxxZpsXix"
+                                    target="_blank" rel="noopener noreferrer">Photo Gallery</a>
             </nav>
         </div>
     </div>
